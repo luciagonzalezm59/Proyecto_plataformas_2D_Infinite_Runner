@@ -1,0 +1,78 @@
+.card {
+    width: 80vw;
+    --bs-card-border-color: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: linear-gradient(135deg, #0F8FBD, #0A6483);
+    color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    --bs-table-bg: none;
+}
+
+table th {
+    padding: 12px 20px;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    font-size: x-large;
+}
+
+.search-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+.search-container input[type="text"] {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 200px;
+}
+
+.search-container input[type="text"]:focus {
+    outline: none;
+    border-color: #0F8FBD;
+}
+
+.card-header {
+    font-size: xxx-large;
+    font-weight: 800;
+    margin-bottom: -45px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #383838;
+    background-color: rgb(255 255 255 / 0%);
+}
+
+.fa-search {
+    color: #383838;
+    font-size: x-large;
+    margin: 10px;
+}
+
+@media (max-width: 790px) {
+    .card-header {
+        display: none;
+    }
+}
+
+@media (max-width: 755px) {
+    table,
+    th,
+    td {
+        font-size: 0.9rem !important;
+    }
+}
+
+@media (max-width: 618px) {
+    th:nth-child(2),
+    th:nth-child(3) {
+        display: none;
+    }
+}

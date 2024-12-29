@@ -1,0 +1,27 @@
+<div class="card">
+    <div class="card-header">
+        {{titulo}}
+    </div>
+    <div class="card-block">
+        <div class="table-responsive" *ngIf="fases && fases.length">
+            <div class="search-container">
+                <input [(ngModel)]="filtroBusqueda" type="text" name="busquedaFases" id="busquedaFases">
+                <label for="busquedaFases"><i class="fas fa-search"></i></label>
+            </div>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th class="text-center">{{cabeceras.fases}}</th>
+                        <th class="text-center">{{cabeceras.descripcion}}</th>
+                        <th class="text-center">{{cabeceras.fecha}}</th>
+                        <th class="text-center">{{cabeceras.enlace}}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let fase of fases | filtroFases: filtroBusqueda" app-item-fase [fase]="fase">
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

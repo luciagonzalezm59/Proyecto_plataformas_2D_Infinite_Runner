@@ -1,0 +1,13 @@
+<div id="carousel-container">
+    <h2 id="carousel-title">Explora nuestros juegos</h2>
+    <div id="carousel">
+        <div *ngFor="let image of images; let i = index" [ngClass]="getCarouselClass(i)" (click)="moveToSelected(i)">
+            <img [src]="image.src" [alt]="image.alt" />
+        </div>
+    </div>
+
+    <div class="arrow-controls">
+        <i class="arrow-left fas fa-chevron-circle-left" (click)="moveToSelected('prev')"></i>
+        <i class="arrow-right fas fa-chevron-circle-right" (click)="moveToSelected('next')"></i>
+    </div>
+</div>

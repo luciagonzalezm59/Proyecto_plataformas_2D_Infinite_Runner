@@ -1,0 +1,289 @@
+main {
+    margin-top: 100px;
+}
+
+.banner {
+    background-color: #383838;
+    color: white;
+    height: 583px;
+    padding: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.banner-text {
+    max-width: 50%;
+}
+
+.banner-title {
+    margin-bottom: 20px;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.banner-description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.banner-button {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-download {
+    font-size: 18px;
+    text-decoration: none;
+    background-color: white;
+    color: #383838;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-weight: normal;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    font-size: 25px;
+}
+
+.btn-download:hover {
+    background-color: #1872A4;
+    color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.btn-download:active {
+    background-color: #1872A4;
+    color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.fa-download {
+    margin-right: 10px;
+}
+
+.banner-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text-download {
+    font-size: 18px;
+}
+
+.download-section {
+    margin-bottom: 0px !important;
+}
+
+.card-custom {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px 20px 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-custom h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #383838;
+}
+
+.card-custom img {
+    max-width: 80%;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #383838;
+    color: white;
+    border: 2px solid #383838;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    font-size: 20px;
+}
+
+button:hover,
+button:active {
+    background-color: white;
+    color: #383838;
+    border: 2px solid #383838;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+}
+
+.gameplay-section {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-card.gameplay-card {
+    background: linear-gradient(135deg, #0F8FBD, #0A6483);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 35px 20px 20px 20px;
+    display: flex;
+    align-items: center;
+    width: 59vw;
+    height: 450px;
+    color: #ffffff;
+}
+
+.gameplay-title {
+    font-size: 35px;
+}
+
+.gameplay-description {
+    font-size: 20px;
+}
+
+.gameplay-text {
+    padding: 20px;
+    flex: 1;
+    text-align: left;
+}
+
+.gameplay-video {
+    flex: 1;
+    padding: 20px;
+}
+
+.gameplay-video video {
+    max-height: 100%;
+    width: 100%;
+    border-radius: 12px;
+}
+
+@media (max-width: 1255px) {
+    .banner {
+        flex-direction: column !important;
+        height: auto !important;
+        text-align: center !important;
+        padding: 30px !important;
+        gap: 20px !important;
+    }
+
+    .banner-text {
+        max-width: 100% !important;
+    }
+
+    .banner-title {
+        font-size: 2.5rem !important;
+    }
+
+    .banner-description {
+        font-size: 1rem !important;
+    }
+
+    .banner-image img {
+        max-width: 80% !important;
+        margin: 0 auto !important;
+    }
+
+    .download-section .row {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .card-custom {
+        max-width: 80% !important;
+        margin-bottom: 20px !important;
+    }
+
+    .custom-card.gameplay-card {
+        flex-direction: column !important;
+        height: auto !important;
+        padding: 20px !important;
+    }
+
+    .gameplay-video,
+    .gameplay-text {
+        width: 100% !important;
+        padding: 10px 0 !important;
+    }
+
+    .gameplay-title {
+        font-size: 25px !important;
+    }
+
+    .gameplay-description {
+        font-size: 18px !important;
+    }
+
+    .gameplay-text {
+        display: none !important;
+    }
+
+    .custom-card.gameplay-card {
+        justify-content: center !important;
+    }
+
+    .gameplay-video {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 991px) {
+    main {
+        margin-top: 120px !important;
+    }
+
+    .custom-card.gameplay-card {
+        height: auto !important;
+        padding: 20px !important;
+    }
+}
+
+@media (max-width: 619px) {
+    .banner-button .btn-download {
+        font-size: 18px !important;
+        padding: 8px 20px !important;
+    }
+
+    .text-download {
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width: 497px) {
+    .banner-button .btn-download {
+        font-size: 16px !important;
+        padding: 6px 15px !important;
+    }
+
+    .text-download {
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 445px) {
+    .banner-button .btn-download {
+        font-size: 14px !important;
+        padding: 4px 12px !important;
+    }
+
+    .text-download {
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .custom-card.gameplay-card {
+        width: 100% !important;
+        padding: 20px !important;
+    }
+
+    .gameplay-video,
+    .gameplay-text {
+        flex: 1 !important;
+    }
+}

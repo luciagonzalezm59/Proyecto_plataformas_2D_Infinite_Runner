@@ -1,0 +1,141 @@
+main {
+    margin-top: 100px;
+}
+
+.banner-container {
+    background-color: #383838;
+    height: 583px;
+    padding: 55px;
+    position: relative;
+}
+
+.banner-container h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-container p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.image-overlay {
+    position: absolute;
+    bottom: -95px;
+    left: 75%;
+    transform: translateX(-75%);
+    z-index: 9999;
+    pointer-events: none;
+}
+
+.image-overlay img {
+    border-radius: 50%;
+    max-width: none;
+}
+
+.lista-fases {
+    display: flex;
+    justify-content: center;
+}
+
+.table-container {
+    overflow-x: auto;
+    margin-top: 100px;
+    margin-bottom: 110px;
+}
+
+.image-superpuesta {
+    position: absolute;
+    top: 78%;
+    left: 22%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.image-superpuesta img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media (max-width: 1045px) {
+    .banner-container {
+        padding: 40px;
+        height: auto;
+    }
+
+    .banner-container h1 {
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+    }
+
+    .banner-container p {
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+
+    .image-overlay img {
+        display: none;
+    }
+
+    .lista-fases {
+        display: block;
+        margin-top: 40px;
+        margin-left: 100px;
+        margin-bottom: 50px;
+    }
+
+    .table-container {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .image-superpuesta {
+        display: none;
+    }
+
+    .image-superpuesta img {
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media (max-width: 991px) {
+    main {
+        margin-top: 125px !important;
+    }
+
+    .lista-fases {
+        display: block;
+        margin-top: 40px;
+        margin-left: 80px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .banner-container h1 {
+        font-size: 2rem;
+    }
+
+    .banner-container p {
+        font-size: 0.9rem;
+    }
+
+    .image-overlay img {
+        display: none;
+    }
+
+    .image-superpuesta img {
+        display: none;
+    }
+
+    .lista-fases {
+        display: block;
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-bottom: 50px;
+    }
+}

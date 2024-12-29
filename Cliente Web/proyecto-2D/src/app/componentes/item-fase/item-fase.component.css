@@ -1,0 +1,36 @@
+td {
+    padding: 12px 20px;
+    color: white;
+}
+
+.fase-nombre {
+    font-weight: bold;
+}
+
+.btn-custom {
+    background-color: white;
+    color: #383838;
+    border: 2px solid white;
+    padding: 5px 20px;
+    font-weight: normal;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #1872A4;
+    color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.btn-custom:active {
+    background-color: #1872A4;
+    color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 618px) {
+    td:nth-child(2),
+    td:nth-child(3) {
+        display: none;
+    }
+}

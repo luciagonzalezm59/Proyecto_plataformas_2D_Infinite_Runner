@@ -1,0 +1,45 @@
+<footer>
+  <div class="text-white footer-top" style="background-color: #3B3B3B;">
+    <div class="container p-4">
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-md-6 mb-4 mb-md-0 text-start">
+          <h5 class="text-uppercase">Recursos</h5>
+          <ul class="list-unstyled">
+            <li><a [routerLink]="['/inicio']" class="text-white text-decoration-none recurso-link">Inicio</a></li>
+            <li><a [routerLink]="['/descargar']" class="text-white text-decoration-none recurso-link">Descargar</a></li>
+            <li><a [routerLink]="['/pitch']" class="text-white text-decoration-none recurso-link">Pitch</a></li>
+            <li><a target="_blank"
+                href="https://goldenrod-index-ca2.notion.site/Escape-from-the-Laundry-Game-design-template-1615a0b5b42980f7b8fdf61d0037588c?pvs=4"
+                class="text-white text-decoration-none recurso-link">GDD</a></li>
+            <li><a [routerLink]="['/documentacion']" class="text-white text-decoration-none recurso-link">Documentación</a>
+            </li>
+            <li><a [routerLink]="['/sobre-nosotros']" class="text-white text-decoration-none recurso-link">Sobre nosotros</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-6 col-md-6 mb-4 mb-md-0 text-end d-flex flex-column justify-content-center">
+          <div>
+            <a href="mailto:infinitegamesgroup@gmail.com" class="text-white me-3 footer-icon" target="_blank">
+              <i class="fas fa-envelope fa-2x"></i>
+            </a>
+            <a href="https://github.com/infinitegamesgroup" class="text-white me-3 footer-icon" target="_blank">
+              <i class="fab fa-github fa-2x"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-center p-2 text-white" style="background-color: #383838;">
+    <div class="d-flex justify-content-center align-items-center">
+      <a href="/inicio#pagina-principal">
+        <img src="../../../assets/imagenes/logo_transparent.webp" alt="Logo Infinite Games"
+          style="width: 125px; height: auto; margin-right: 10px;">
+      </a>
+      <span>
+        © 2025 <a [routerLink]="['/inicio']" class="text-white text-decoration-none recurso-link">Infinite
+          Games</a>. Todos los derechos reservados
+      </span>
+    </div>
+  </div>
+</footer>
