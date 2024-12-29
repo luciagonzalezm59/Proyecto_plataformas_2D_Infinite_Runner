@@ -1,6 +1,6 @@
 # **Cliente web proyecto plataformas 2D - Infinite Runner**
 
-Este proyecto consiste en el desarrollo de una página web atractiva y usable para el juego _"Escape from the Laundry"_, un proyecto basado en el género de _plataformas 2D infinite runner_. La web mostrará de forma organizada y accesible los siguientes elementos:
+Este proyecto consiste en el desarrollo de una página web atractiva y usable para el juego _"Escape from the Laundry"_, basado en el género de _plataformas 2D infinite runner_. La web muestra de forma organizada y accesible los siguientes elementos:
 
 - **Enlace al juego** para probarlo directamente.
 - **Documentación de las fases del proyecto** que detalla el proceso de desarrollo.
@@ -16,18 +16,25 @@ La instalación del cliente web para el **proyecto plataformas 2D - Infinite Run
 
 1. **Realizar un fork del proyecto:**
     - Haz clic en el icono de _"Fork"_ en la página del repositorio.
+      
+      ![Fork](https://github.com/user-attachments/assets/8d35dc08-c507-48c0-922a-e780dfe1951e)
+      
     - Esto creará una copia del repositorio remoto en tu cuenta de **GitHub**, permitiéndote trabajar con una copia independiente del proyecto original.
 
 2. **Clonar el proyecto en local:**
 
     - Una vez realizado el fork, clona el repositorio en tu equipo local.
+
+      ![Clone](https://github.com/user-attachments/assets/837492ce-8b32-4e5b-811b-c7b0dc703d3e)
+
+      
     - Se recomienda utilizar **[GitHub Desktop](https://github.com/apps/desktop)** para simplificar el proceso de clonación y gestión del proyecto.
 
 3. **Preparar el entorno de desarrollo:**
 
     - Asegúrate de tener instaladas las siguientes herramientas en tu equipo:
 
-      - **Node.js:** Necesario para instalar las dependencias del proyecto. Descárgalo desde [Node.js Official Website](https://nodejs.org/).
+      - **Node.js:** Necesario para instalar las dependencias del proyecto. Descárgalo desde **[Node.js Official Website](https://nodejs.org/)**.
       - **Angular CLI:** Instálalo globalmente ejecutando el siguiente comando en la terminal: `npm install -g @angular/cli`.
  4. **Instalar las dependencias del proyecto:**
 
@@ -38,4 +45,14 @@ La instalación del cliente web para el **proyecto plataformas 2D - Infinite Run
 
 1. Inicia el servidor de desarrollo de Angular ejecutando: `ng serve`.
 2. Abre tu navegador y accede a `http://localhost:4200/` para visualizar el cliente web.
+
+## Copyright
+El cliente web ha sido desarrollado por _Lucía González Martín_ bajo la **licencia GPL3** para el **proyecto plataformas 2D - Infinite Runner** del Curso de Especialización en Videojuegos y Realidad Virtual del IES Valle del Jerte de Plasencia.
+
+
+
+
+
+
+
  
