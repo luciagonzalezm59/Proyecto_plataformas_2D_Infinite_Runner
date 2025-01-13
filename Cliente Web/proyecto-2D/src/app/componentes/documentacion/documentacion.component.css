@@ -33,6 +33,8 @@ main {
 .image-overlay img {
     border-radius: 50%;
     max-width: none;
+    width: 200px;
+    height: 200px;
 }
 
 .lista-fases {
@@ -48,10 +50,12 @@ main {
 
 .image-superpuesta {
     position: absolute;
-    top: 78%;
+    top: 85%;
     left: 22%;
     transform: translateY(-50%);
     z-index: 10;
+    width: 250px;
+    height: 250px;
 }
 
 .image-superpuesta img {
