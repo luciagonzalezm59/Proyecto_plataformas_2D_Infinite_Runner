@@ -4,7 +4,7 @@ main {
 
 .banner {
   position: relative;
-  background: url('https://placehold.co/1920x583') no-repeat center center;
+  background: url('../../../assets/imagenes/enfrentamiento_banner_conocenos.webp') no-repeat center center;
   background-size: cover;
   height: 583px;
   display: flex;

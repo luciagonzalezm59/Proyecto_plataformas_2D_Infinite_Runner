@@ -223,7 +223,7 @@ main {
     padding: 42px;
     background: url('../../../assets/imagenes/fondo_banner_descarga.webp') no-repeat;
     background-size: cover;
-    height: 50vh;
+    height: 45vh;
     display: flex;
     flex-direction: column;
     justify-content: initial;
