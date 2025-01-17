@@ -57,13 +57,13 @@
     .banner-img {
         bottom: 5%;
         left: 10%;
-        width: 150px;
+        width: 120px;
     }
 }
 
 @media (max-width: 910px) {
     .banner-img {
-        width: 120px;
+        width: 100px;
     }
 }
 

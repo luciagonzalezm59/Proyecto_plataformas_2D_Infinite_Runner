@@ -304,6 +304,10 @@ main {
         font-size: 25px;
         line-height: 1.4;
     }
+
+    .hero-section {
+        height: fit-content;
+    }
 }
 
 @media (max-width: 1376px) {
@@ -404,6 +408,23 @@ main {
     }
 }
 
+@media (max-width: 838px) {
+    .pitch-card {
+        height: 450px !important;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+
+    .pitch-video {
+        order: 1;
+        
+    }
+
+    .pitch-text {
+        display: none;
+    }
+}
+
 @media (max-width: 834px) {
     .download-btn {
         padding: 4px 14px !important;
@@ -468,6 +489,13 @@ main {
     .section-title {
         font-size: xx-large !important;
     }
+
+    .pitch-card {
+        height: 350px !important;
+        width: 95vw !important;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
 }
 
 @media (max-width: 685px) {
@@ -499,11 +527,23 @@ main {
     }
 }
 
+@media (max-width: 615px) {
+    .download-title {
+        font-size: 2rem;
+    }
+}
+
 @media (max-width: 580px) {
     .download-btn {
         padding: 2px 8px !important;
         font-size: 8px !important;
         margin-top: -10px !important;
+    }
+
+    .pitch-card {
+        height: 300px !important;
+        margin: 0px !important;
+        padding: 0px !important;
     }
 }
 
@@ -525,12 +565,43 @@ main {
     }
 }
 
+@media (max-width: 508px) {
+    .download-title {
+        font-size: 1.9rem;
+    }
+}
+
 @media (max-width: 490px) {
     .custom-card img {
         width: 140px !important;
         height: auto !important;
         display: block !important;
     }
+
+    .pitch-card {
+        height: 250px !important;
+        width: 95vw !important;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+}
+
+@media (max-width: 487px) {
+    .download-title {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 466px) {
+    .download-title {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 434px) {
+   .android-btn {
+    font-size: 20px !important;
+   }
 }
 
 @media (max-width: 430px) {
@@ -543,11 +614,17 @@ main {
     .section-title {
         font-size: x-large !important;
     }
+
+    .pitch-card {
+        height: 220px !important;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
 }
 
 @media (max-width: 410px) {
     .custom-card img {
-        width: 180px !important;
+        width: 160px !important;
         height: auto !important;
         display: block !important;
     }
@@ -560,6 +637,24 @@ main {
 
     .custom-card p {
         display: none !important;
+    }
+}
+
+@media (max-width: 383px) {
+    .download-title {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 377px) {
+    .android-btn {
+     font-size: 18px !important;
+    }
+ }
+
+ @media (max-width: 366px) {
+    .download-title {
+        font-size: 1.5rem;
     }
 }
 
@@ -598,3 +693,9 @@ main {
         display: none !important;
     }
 }
+
+@media (max-width: 353px) {
+    .android-btn {
+     font-size: 16px !important;
+    }
+ }

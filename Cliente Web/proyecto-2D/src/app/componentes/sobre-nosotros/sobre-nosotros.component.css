@@ -381,6 +381,17 @@ label {
   }
 }
 
+@media (min-width: 1025px) and (max-width: 1919px) {
+  .office {
+    margin-bottom: 100px;
+  }
+
+  .contact-section {
+    margin-bottom: 150px;
+    background-color: initial;
+  }
+}
+
 @media (max-width: 1024px) {
   .contact-section {
     height: fit-content;
@@ -390,6 +401,14 @@ label {
 @media (max-width: 991px) {
   main {
     margin-top: 125px !important;
+  }
+
+  .contact-title {
+    margin-top: 30px;
+  }
+
+  .form-wrapper {
+    margin-bottom: 30px;
   }
 }
 
@@ -430,6 +449,18 @@ label {
 
 @media (max-width: 375px) {
   .contact-section {
-    margin: 40px 0px 130px 0px;
+    margin: -50px 0px 130px 0px !important;
+  }
+
+  .contact-title {
+    margin-top: 30px;
+  }
+
+  .form-wrapper {
+    margin-bottom: 30px;
+  }
+
+  .ubicacion-section {
+    margin: -90px 0px 0px 0px !important;
   }
 }

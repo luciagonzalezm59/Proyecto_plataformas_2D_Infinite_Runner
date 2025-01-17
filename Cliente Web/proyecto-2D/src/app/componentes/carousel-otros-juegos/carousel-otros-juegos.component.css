@@ -110,3 +110,42 @@
 .arrow-right:active {
     opacity: 1;
 }
+
+@media (max-width: 1627px) {
+    #carousel {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: auto;
+        overflow: visible;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+
+    #carousel div {
+        position: relative;
+        left: auto;
+        transform: none;
+        opacity: 1;
+        margin-bottom: 20px;
+        z-index: auto;
+    }
+
+    #carousel img {
+        height: auto;
+        margin: 0 auto;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    .arrow-controls {
+        display: none;
+    }
+}
+
+@media (max-width: 400px) {
+    #carousel img {
+        width: 90vw;
+    }
+}
