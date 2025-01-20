@@ -14,7 +14,7 @@ export class CarouselOtrosJuegosComponent implements OnInit {
   images = [
     { src: '../../../assets/imagenes/juego_marta.webp', alt: 'Juego de Marta' },
     { src: '../../../assets/imagenes/juego_ricardo.webp', alt: 'Juego de Ricardo' },
-    { src: 'https://placehold.co/400/png?text=Imagen+3', alt: 'Image 3' },
+    { src: '../../../assets/imagenes/juego_grupo.webp', alt: 'Escape from the Laundry' },
     { src: '../../../assets/imagenes/juego_lucia.webp', alt: 'Juego de Lucía' },
     { src: '../../../assets/imagenes/juego_javier.webp', alt: 'Juego de Javier' },
   ];
