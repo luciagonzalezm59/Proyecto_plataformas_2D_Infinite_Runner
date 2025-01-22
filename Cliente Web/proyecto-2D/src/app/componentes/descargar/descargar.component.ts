@@ -16,4 +16,11 @@ export class DescargarComponent {
     link.download = 'EscapeFromTheLaundry.apk';
     link.click();
   }
+
+  descargarXbox(): void {
+    const link = document.createElement('a');
+    link.href = '../../../assets/builds/EscapeFromTheLaundryXbox.zip';
+    link.download = 'EscapeFromTheLaundryXbox.zip';
+    link.click();
+  }
 }
