@@ -10,4 +10,10 @@ import { RouterModule } from '@angular/router';
 })
 export class DescargarComponent {
 
+  descargarAndroid(): void {
+    const link = document.createElement('a');
+    link.href = '../../../assets/builds/EscapeFromTheLaundry.apk';
+    link.download = 'EscapeFromTheLaundry.apk';
+    link.click();
+  }
 }
